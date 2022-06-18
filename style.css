@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(indir.png);
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-family: digital;
+  font-size: 4rem;
+  background-color: black;
+  color: #f6f6f6;
+  padding: 10px;
+  width: 238px;
+  height: 90px;
+}
+@font-face {
+  font-family: digital;
+  src: url(./DS-DIGI.TTF);
+}
+span {
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+}
+.hour {
+  margin-left: 8px;
+}
