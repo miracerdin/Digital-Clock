@@ -4,20 +4,27 @@
   box-sizing: border-box;
 }
 body {
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-image: url("https://picsum.photos/1366/768");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.common {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(indir.png);
   background-position: center;
-
   background-repeat: no-repeat;
 }
 .clock {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
   font-family: digital;
   font-size: 4rem;
   background-color: black;
